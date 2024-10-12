@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5A6067; /* Cor de fundo ajustada */
+    border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+    height: 50px; /* Ajuste conforme necessário */
+}
+
+/* Centralizando a busca */
+.search-box {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    width: 40%; /* Ajuste a largura conforme necessário */
+    padding: 10px;
+    border: 1px solid #FF914D; /* Cor da borda ajustada */
+    border-radius: 25px; /* Tornando a borda mais arredondada */
+    background-color: #FF914D; /* Cor de fundo ajustada */
+    color: white; /* Cor do texto para contraste */
+}
+
+/* Estilo dos links do header */
+.header-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #FF914D; /* Cor ajustada para os links */
+    font-weight: bold;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #5A6067; /* Cor de fundo ajustada */
+    border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+    height: 80px; 
+}
+
+/* Estilo das características de busca */
+.search-criteria {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Categoria */
+.category {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.category-name {
+    font-size: 24px; /* Tornando a palavra "Categoria" maior */
+    margin-right: 10px;
+}
+
+.arrow {
+    font-size: 24px; /* Tamanho da seta */
+    color: black; /* Cor da seta ajustada para preto */
+    border-radius: 50%; /* Borda arredondada */
+    padding: 5px; /* Espaço interno para parecer mais arredondada */
+    background-color: #fff; /* Fundo branco para destaque */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo dos ícones das categorias */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon {
+    text-align: center;
+    margin: 10px;
+}
+
+.icon img {
+    width: 70px;  /* Tamanho dos ícones */
+    height: 70px;
+    border-radius: 50%; /* Tornando os ícones redondos */
+    background-color: #f0f0f0; /* Cor de fundo dos ícones */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+}
+
+.icon span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* Estilo da div de produtos */
+.products {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(20% - 10px); /* 5 produtos por linha */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0 5px;
+}
+
+.product p {
+    color: #333;
+}
+
+.registration-form {
+    max-width: 600px; /* Aumentando a largura da caixa de cadastro */
+    margin: 40px auto; /* Centraliza o formulário na página */
+    padding: 30px; /* Aumentando o padding para um layout mais espaçoso */
+    background-color: #5A6067; /* Cor de fundo do formulário */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form h2 {
+    text-align: center;
+    color: white; /* Cor do título ajustada para branco para melhor contraste */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px; /* Espaçamento abaixo do label */
+    color: #5A6067; /* Cor dos labels */
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5A6067; /* Cor da borda */
+    border-radius: 5px;
+    background-color:#FF914D; /* Cor de fundo dos campos */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF914D; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68a3c; /* Efeito hover no botão */
+}
